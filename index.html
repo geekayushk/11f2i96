@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Poppins:wght@200&display=swap"
+        rel="stylesheet">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="card">
+            <div class="inner-box" id="card">
+                <div class="card-front">
+                    <div class="forimg">
+                        <img class="logo" src="./logo.png" alt="Mgm-global-distribution-logo-img">
+                    </div>
+                    <h4 class="signIn">Sign In</h4>
+                    <form id="myForm">
+                        <label class="label-is" for="email">Email
+                            <input type="email" class="input-box" placeholder="Enter your email address" required>
+                        </label>
+                        <div class="password-container">
+                            <label class="label-is" for="email">Password
+                                <input type="password" class="input-box" id="password" placeholder="Enter your password"
+                                    required>
+                                <img src="close-eye.png" alt="show-password" id="eyeIcon">
+                            </label>
+                        </div>
+                        <div class="f-pass">
+                            <h4 class="forget-pass">Forgot Password ?</h4>
+                        </div>
+                        <div class="check-box">
+                            <input type="checkbox">
+                            <div>Keep me signed in for 30 days</div>
+                        </div>
+
+                        <button type="submit" class="sign-in">SIGN IN</button>
+                        <div class="term">
+                            <h5 style="font-weight: 400;">Read Our Terms of Service</h5>
+                            <img style="height: 10px;" src="./link.png" alt="link-img">
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div>
+                <div class="container3">
+                    <div class="container4">
+                        <span style="font-size: 8px;">OTHER WAYS TO WATCH</span>
+                        <div class="brands">
+                            <div><img class="width-logo" src="./Group 24.png" alt="apple-tv-logo"></div>
+                            <div><img class="width-logo" src="./Group 23.png" alt="ios-tv-logo"></div>
+                            <div><img class="width-logo" src="./Group 25.png" alt="roku-logo"></div>
+                            <div><img class="width-logo width-logo2" src="./Group 22.png" alt="amazon-fire-logo"></div>
+                        </div>
+                        <span style="font-size: 9px;color: #D5D5D5;">Search for AppleTV+FYC on your App Store</span>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div class="container2"></div>
+
+
+    <!-- Script -->
+
+    <script>
+        document.getElementById('myForm').addEventListener('submit', (e) => {
+            e.preventDefault();
+            alert('Form submitted successfully!');
+        });
+    </script>
+
+</body>
+
+</html>
