@@ -42,7 +42,7 @@
 
                         <button type="submit" class="sign-in">SIGN IN</button>
                         <div class="term">
-                            <h5 style="font-weight: 400;">Read Our Terms of Service</h5>
+                            <h5 style="font-weight: 400; cursor: pointer;">Read Our Terms of Service</h5>
                             <img style="height: 10px;" src="./link.png" alt="link-img">
                         </div>
                     </form>
@@ -75,6 +75,16 @@
             e.preventDefault();
             alert('Form submitted successfully!');
         });
+
+        document.querySelector('#eyeIcon').addEventListener('click', () => {
+            const passwordInput = document.querySelector('#password');
+            if (passwordInput.type === 'password') {
+                passwordInput.type = 'text';
+            } else {
+                passwordInput.type = 'password';
+            }
+        });
+
     </script>
 
 </body>
