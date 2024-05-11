@@ -1,1 +1,1 @@
-[Live Demo](https://indee-assignment-iu8setv7u-ayushs-projects-3aed2ba9.vercel.app/)
+[Live Demo](https://indeetv-assignment.netlify.app/)
